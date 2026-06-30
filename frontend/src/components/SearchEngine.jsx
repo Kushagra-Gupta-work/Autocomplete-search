@@ -188,7 +188,7 @@ export default function SearchEngine() {
         setActiveIndex(-1);
       } catch (err) {
         if (err.name === "AbortError") return;
-
+        console.error("Suggestion fetch failed:", err);
         // On error, still show whatever history matches we found
         setSuggestions(localMatches);
         setError("Could not reach the server.");
