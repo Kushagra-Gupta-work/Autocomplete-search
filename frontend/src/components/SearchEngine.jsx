@@ -413,8 +413,7 @@ export default function SearchEngine() {
           <span className="text-[#7C5CFF]">Watch the tree light up.</span>
         </h1>
         <p className="mt-3.5 text-[0.925rem] text-[#5B6485] leading-relaxed">
-          Every keystroke walks a live trie — frequency-ranked results,
-          accelerated by an LRU cache underneath.
+          Every keystroke walks a live trie, based on frequency-ranked results.
         </p>
       </div>
 
